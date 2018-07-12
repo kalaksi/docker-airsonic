@@ -1,0 +1,15 @@
+version: 2
+services:
+  airsonic:
+    image: kalaksi/airsonic
+    container_name: airsonic
+    cap_drop:
+      - ALL
+    ports:
+      - '8080:8080'
+    volumes:
+      - /mnt/your_media:/media:ro
+      - airsonic:/var/airsonic
+
+volumes:
+  airsonic: {}
