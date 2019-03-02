@@ -1,5 +1,5 @@
 FROM openjdk:8-jre-alpine3.8
-MAINTAINER Kalaksi <kalaksi@users.noreply.github.com>
+LABEL maintainer="kalaksi@users.noreply.github.com"
 
 ENV AIRSONIC_CONTEXT_PATH "/"
 # A space-separated list, e.g. "-Dairsonic.example1=example -Dserver.example2=example"
