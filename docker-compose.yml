@@ -1,8 +1,8 @@
-version: 2
+version: '2'
 services:
   airsonic:
     image: kalaksi/airsonic
-    container_name: airsonic
+    restart: unless-stopped
     cap_drop:
       - ALL
     ports:
