@@ -4,6 +4,11 @@
 - [Airsonic documentation](https://airsonic.github.io/docs)
 - [ArchWiki documentation about Subsonic](https://wiki.archlinux.org/index.php/Subsonic)
 
+## DEPRECATION WARNING
+
+This container version is deprecated! Please use version 1.1 instead.
+See Airsonic's release notes for more information about changes between Airsonic 10.1.1 and 10.2.1: https://github.com/airsonic/airsonic/releases
+
 ## Why use this container?
 **Simply put, this container has been written with simplicity and security in mind.**
 
