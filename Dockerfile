@@ -1,9 +1,9 @@
 FROM openjdk:8-jre-alpine3.9
 LABEL maintainer="kalaksi@users.noreply.github.com"
 
-ENV AIRSONIC_CONTEXT_PATH "/"
+ENV CONTEXT_PATH "/"
 # A space-separated list, e.g. "-Dairsonic.example1=example -Dserver.example2=example"
-ENV AIRSONIC_JAVA_OPTS ""
+ENV JAVA_OPTS ""
 
 ENV AIRSONIC_VERSION 10.2.1
 ENV AIRSONIC_UID 163769
@@ -39,4 +39,4 @@ ENTRYPOINT set -eu; \
            [ -e /var/airsonic/transcode/ffmpeg ] || ln -s /usr/bin/ffmpeg /var/airsonic/transcode/; \
            [ -e /var/airsonic/transcode/flac ]   || ln -s /usr/bin/flac /var/airsonic/transcode/; \
            [ -e /var/airsonic/transcode/lame ]   || ln -s /usr/bin/lame /var/airsonic/transcode/; \
-           exec /usr/bin/java -Dairsonic.home=/var/airsonic -Dserver.contextPath=${AIRSONIC_CONTEXT_PATH} $AIRSONIC_JAVA_OPTS -jar /opt/airsonic.war
+           exec /usr/bin/java -Dairsonic.home=/var/airsonic -Dserver.contextPath=${CONTEXT_PATH} $JAVA_OPTS -jar /opt/airsonic.war
