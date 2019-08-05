@@ -28,7 +28,7 @@ RUN apk add --no-cache \
     # Verify package signature and clean up afterwards
     gpg --keyserver keyserver.ubuntu.com --recv F7E5D48CF5F4061684A626200A3F5E91F8364EDF && \
     (gpg /opt/airsonic.war.asc || exit 1) && \
-    rm -r /opt/airsonic.war.asc ~/.gnupg && \
+    rm -r /opt/airsonic.war.asc ~/.gnupg; \
     apk del --no-cache gnupg
 
 EXPOSE 8080
