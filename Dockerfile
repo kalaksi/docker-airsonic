@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine3.9
+FROM openjdk:8-jre-alpine3.10
 LABEL maintainer="kalaksi@users.noreply.github.com"
 
 ENV CONTEXT_PATH "/"
