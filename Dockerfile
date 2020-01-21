@@ -1,3 +1,6 @@
+# Copyright (c) 2018 kalaksi@users.noreply.github.com.
+# This work is licensed under the terms of the MIT license. For a copy, see <https://opensource.org/licenses/MIT>.
+
 FROM openjdk:8-jre-alpine3.9
 LABEL maintainer="kalaksi@users.noreply.github.com"
 
