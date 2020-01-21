@@ -5,7 +5,7 @@ ENV CONTEXT_PATH "/"
 # A space-separated list, e.g. "-Dairsonic.example1=example -Dserver.example2=example"
 ENV JAVA_OPTS ""
 
-ENV AIRSONIC_VERSION 10.3.1
+ENV AIRSONIC_VERSION 10.4.2
 ENV AIRSONIC_UID 163769
 ENV AIRSONIC_GID 163769
 
