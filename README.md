@@ -1,5 +1,5 @@
 ## Resources
-- [Docker Hub repository](https://registry.hub.docker.com/u/kalaksi/airsonic/)
+- [Docker Hub repository](https://hub.docker.com/r/kalaksi/airsonic/)
 - [GitHub repository](https://github.com/kalaksi/docker-airsonic)
 - [Airsonic documentation](https://airsonic.github.io/docs)
 - [ArchWiki documentation about Subsonic](https://wiki.archlinux.org/index.php/Subsonic)
